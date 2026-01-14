@@ -27,7 +27,7 @@ const templates = {
   [getTemplateIdSuffix('nextjs-developer')]: {
     name: 'Next.js developer',
     lib: [
-      'nextjs@14.2.5',
+      'nextjs@15.1.3',
       'typescript',
       '@types/node',
       '@types/react',
@@ -38,7 +38,7 @@ const templates = {
     ],
     file: 'pages/index.tsx',
     instructions:
-      'A Next.js 13+ app that reloads automatically. Using the pages router.',
+      'A Next.js 15+ app that reloads automatically. Using the App router.',
     port: 3000,
   },
   [getTemplateIdSuffix('vue-developer')]: {
